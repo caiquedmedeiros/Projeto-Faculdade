@@ -1,0 +1,122 @@
+   .primeiro{
+    background-color:  #48106d;
+   }
+
+   
+   .descricao .container{
+    display: flex;
+    align-items: center;
+    margin-right:100px;
+  }
+    
+    .descricao .descricao-text{
+    width: 50%;
+    padding: 0 40px;
+    }
+    
+    .descricao .descricao-text h3{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    margin-left:80px;
+    text-decoration:underline;
+    }
+
+    .descricao .descricao-text h2{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    margin-left:150px;
+    margin-top:-70px;
+    margin-bottom:210px;
+    text-decoration:underline;
+    }
+    
+    .descricao .descricao-text p{
+        margin:5px 0 10px 80px;
+        color:white;
+        font-family:sans-serif;
+        font-size:  25px;
+    }
+    
+
+    .descricao .lista li{
+      margin:5px 0 10px 80px;
+      color:white;
+      font-family:sans-serif;
+      font-size:  20px;
+  }
+
+    .descricao .descricao-img{
+    width:50%;
+    margin-left: 50px;
+    
+    }
+
+    .descricao  .descricao-img img{
+        width:90%;
+       
+    }
+
+    .descricao .container1{
+      display: flex;
+      align-items: center;
+      background-color: rgb(97, 40, 109);
+      margin:0;
+    }
+
+
+    .descricao  .descricao-img2 img{
+      width:90%;
+      margin:60px 0 60px 90px;
+
+  }
+
+  .email{
+      width:50px;
+      margin-left:110px;
+      margin-top:5px;
+  }
+  
+  .emailMensagem {
+    position: fixed;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 23px;
+    background-color: rgb(206, 55, 236);
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px rgb(83, 25, 85);
+    z-index: 1000;
+    font-size: 0; 
+  }
+
+  .icon {
+    font-size: 36px;
+    color: #000; 
+    width: 40px;
+    margin: 50px;
+  }
+
+  /* logo img */
+  
+  .logo{
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+
+  .logo1{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 490px;
+  
+  }
+
+.cat{
+  margin-left: 90px;
+}

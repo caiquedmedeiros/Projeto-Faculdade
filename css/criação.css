@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.options {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+
+}
+
+.p{
+    margin-left: 550px;
+}
+
+#previewBanner {
+    width: 900px;
+    height: 500px;
+    border: 2px solid #000;
+    margin-top: 50px;
+    margin-left:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#previewBanner img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+

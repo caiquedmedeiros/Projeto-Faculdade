@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <link rel="stylesheet" href="/css/login-v.css">
+</head>
+
+<header>
+
+    <img src="/assets/img/logo.png" alt="logo" class="logo">
+    <nav class="nav">
+
+        <ul class="nav_links">
+            <li><a href="/pages/home.html">Home</a></li>
+            <li><a href="/pages/Cartazes.html">Portfólio</a></li>
+            <li><a href="/pages/criação.html">Serviços</a></li>
+            <li><a href="#descricao">Sobre</a></li>
+            <li><a href="/pages/formulario.html">Contato</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="/pages/cadastro.html"><button>Cadastro</button></a>
+</header>
+
+<body class="fundo">
+
+    <div class="form">
+        <form action="#" method="post">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="login-button">
+                    <button><a href="/pages/home.html">X</a></button>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="firstname">Primeiro nome</label>
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="lastname">Sobrenome</label>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="input-box">
+                    <label id="tel">Telefone fixo/móvel</label>
+                    <input type="text" class="telefone" pattern=".{13,14}" maxlength="14" name="Telefone"
+                        placeholder="(xx)xxxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+
+
+                <div class="input-box">
+                    <label for="confirmPassword">Confirme sua Senha</label>
+                    <input id="confirmPassword" type="password" name="confirmPassword"
+                        placeholder="Digite sua senha novamente" required>
+                </div>
+            </div>
+
+
+
+            <div class="continue-button">
+                <button type="submit"><a href="/pages/home.html">Continuar</a> </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

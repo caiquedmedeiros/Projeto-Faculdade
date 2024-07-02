@@ -1,0 +1,213 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: "Noto Sans", sans-serif; 
+}
+
+body * {
+    box-sizing:border-box;
+}
+
+header{
+    box-sizing: border-box;
+    background-color: #26033d;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+/*LOGO*/
+img {
+  width: 100px;
+  margin-left: 40px;
+}
+
+.logo {
+    cursor: pointer;
+  }
+  
+  .nav_links {
+    list-style:none;
+  }
+  
+  .nav_links li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav_links li a:hover {
+    color:#603985;
+  }
+
+
+/*Botao de Login da Direita */
+  button {
+    padding: 9px 25px;
+    background-color: rgb(129, 55, 158);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+  }
+  
+
+/*Botao de Login da Direita */
+  button:hover {
+    background-color: rgba(150, 94, 182, 0.8);
+  }
+
+
+/*Fundo do site*/
+  .main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left-login{
+    width:50vw;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    font-size:50px;
+    color: #d0a8e7;
+    margin-top: 150px;
+}
+
+.left-login-image{
+    width: 35vw;
+}
+
+.right-login{
+    width:50vw;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1 {
+    color:#c3a3e9;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin:10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #4c2b5c;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056; 
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 25px;
+    border: none;
+    border-radius:8px;
+    outline:none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #c3b3d6;
+    background: #6f2f99;
+    cursor:pointer;
+    box-shadow: 0px 10px 40px -12px #c85ff852;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .left-login-image{
+        width: 50vw;
+    }
+
+    .card-login{
+        width:90%;
+    }
+}

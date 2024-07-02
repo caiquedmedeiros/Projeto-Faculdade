@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login-v.css">
+    <link rel="stylesheet" href="/css/criação.css">
+    <title>|CRIAÇÃO</title>
+    <header>
+
+        <img src="/assets/img/logo.png" alt="logo" class="logo">
+        <nav class="nav">
+    
+            <ul class="nav_links">
+                <li><a href="/pages/home.html">Home</a></li>
+                <li><a href="/pages/Cartazes.html">Portfólio</a></li>
+                <li><a href="/pages/criação.html">Serviços</a></li>
+                <li><a href="/pages/home.html">Sobre</a></li>
+                <li><a href="/pages/formulario.html">Contato</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/pages/cadastro.html"><button>Cadastro</button></a>
+    </header>
+
+</head>
+
+<body>
+
+        <h1 class="p">Personalização de Banner</h1>
+        <div class="options">
+            <label for="bannerText">Texto do Banner:</label>
+            <input type="text" id="bannerText">
+
+            <label for="bannerColor">Cor do Banner:</label>
+            <input type="color" id="bannerColor">
+
+            <label for="bannerFont">Fonte do Texto:</label>
+            <select id="bannerFont">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Tahoma">Tahoma</option>
+                <!-- Adicione mais opções de fonte conforme necessário -->
+            </select>
+
+            <label for="bannerImage">Imagem do Banner:</label>
+            <input type="file" id="bannerImage" accept="image/*">
+
+            <button onclick="previewBanner()">Pré-visualizar</button>
+        </div>
+
+        <div id="previewBanner">
+            <!-- Aqui será exibida a pré-visualização do banner -->
+        </div>
+  
+
+    <script src="/app.js"></script>
+
+
+</body>
+
+</html>

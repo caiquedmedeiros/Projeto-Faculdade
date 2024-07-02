@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    text-align: center;
+}
+.tab:hover {
+    background-color: #f1f1f1;
+}
+.tab.active {
+    border-bottom: 2px solid #2575fc;
+    font-weight: bold;
+}
+.tab-content {
+    display: none;
+    padding: 20px 0;
+}
+.tab-content.active {
+    display: block;
+}
+.flyer-preview {
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.flyer-preview h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.flyer-preview p {
+    font-size: 1em;
+}
+.flyer-red {
+    background: red;
+}
+.flyer-blue {
+    background: blue;
+}
+.flyer-green {
+    background: green;
+}
+.flyer-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: black;
+    margin-top: 10px;
+    display: inline-block;
+}
